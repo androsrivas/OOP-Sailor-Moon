@@ -1,0 +1,84 @@
+<mxfile host="Electron" modified="2024-11-29T13:27:35.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="Zjaq2hivtiqyf6zOQAL4" version="21.2.8" type="device">
+  <diagram name="Pàgina-1" id="tmQ2aXhwYBBEdMTeImft">
+    <mxGraphModel dx="1754" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#F694C1;strokeColor=#AF45ED;labelBackgroundColor=none;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="71" y="-72" width="308" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-2" value="&lt;font color=&quot;#660033&quot;&gt;Sailor Moon&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;labelBackgroundColor=none;fontColor=#095C86;" vertex="1" parent="1">
+          <mxGeometry x="98" y="-55" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-4" value="abstract class&lt;br&gt;CHARACTER" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="136" y="45" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60E696;fontSize=12;fontColor=#095C86;startSize=8;endSize=8;fillColor=#F694C1;entryX=0.369;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.006;exitY=0.696;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="en9wyF-FZrpRbVKsU5u2-5" target="en9wyF-FZrpRbVKsU5u2-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#60E696;fontSize=12;fontColor=#095C86;startSize=8;endSize=8;fillColor=#F694C1;exitX=1.006;exitY=0.673;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="en9wyF-FZrpRbVKsU5u2-5" target="en9wyF-FZrpRbVKsU5u2-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-5" value="fullName&lt;br&gt;age&lt;br&gt;gender&lt;br&gt;species&lt;br&gt;&lt;br&gt;displayInfo()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="138" y="120" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60E696;fontSize=12;fontColor=#095C86;startSize=8;endSize=8;fillColor=#F694C1;" edge="1" parent="1" source="en9wyF-FZrpRbVKsU5u2-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-9" value="enum&lt;br&gt;GENDER (female, male, nonbinary, unspecified)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#996185;fontSize=16;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-25" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-11" value="abstract class&lt;br&gt;SAILOR GUARDIAN" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="330" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-12" value="sailor name&lt;br&gt;planet&lt;br&gt;isAuthentic (bool)&lt;br&gt;&lt;br&gt;displayInfo()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="410" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-17" value="class&lt;br&gt;CAT" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-19" value="class&lt;br&gt;SOLAR SYSTEM GUARDIAN" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-20" value="class&lt;br&gt;OUTTER SYSTEM GUARDIAN" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="830" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-21" value="class&lt;br&gt;SAILOR ANIMAMATE" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="650" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#60E696;fontSize=12;fontColor=#095C86;startSize=8;endSize=8;fillColor=#F694C1;" edge="1" parent="1" source="en9wyF-FZrpRbVKsU5u2-22" target="en9wyF-FZrpRbVKsU5u2-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-22" value="enum&lt;br&gt;SPECIES (human, extraterrestrial)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#996185;fontSize=16;fillColor=#e6d0de;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-25" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-24" value="&lt;font color=&quot;#660033&quot;&gt;interface&lt;br&gt;ATTACKABLE&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ae4132;fontSize=16;fillColor=#fad9d5;" vertex="1" parent="1">
+          <mxGeometry x="540" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-25" value="&lt;font color=&quot;#660033&quot;&gt;interface&lt;br&gt;TRANSFORMABLE&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#ae4132;fontSize=16;fillColor=#fad9d5;" vertex="1" parent="1">
+          <mxGeometry x="510" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="en9wyF-FZrpRbVKsU5u2-26" value="class&lt;br&gt;OUTTER SYSTEM GUARDIAN" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#AF45ED;fontSize=16;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="830" width="180" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
